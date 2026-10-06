@@ -24,9 +24,9 @@
 </section>
 
 <style>
-  .sec { display: grid; grid-template-columns: minmax(0, 1fr) 560px; scroll-margin-top: 53px; }
+  .sec { display: grid; grid-template-columns: minmax(0, 1fr) clamp(560px, 38%, 920px); scroll-margin-top: 53px; }
   .main { padding: 48px; border-right: 1px solid var(--ink); display: flex; flex-direction: column; gap: 24px; }
-  .mail { font-family: var(--sans); font-size: 64px; font-weight: 700; letter-spacing: -0.04em; color: var(--ink); overflow-wrap: anywhere; }
+  .mail { font-family: var(--sans); font-size: clamp(64px, 4.6vw, 112px); font-weight: 700; letter-spacing: -0.04em; color: var(--ink); overflow-wrap: anywhere; }
   .mail:hover { text-decoration: underline; }
   .links { display: flex; gap: 32px; font-size: 15px; flex-wrap: wrap; }
   .links a { color: var(--ink); }

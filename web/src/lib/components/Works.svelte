@@ -74,6 +74,11 @@
     h3 { font-size: 21px; }
     .dl { align-items: center; padding: 0 20px; min-height: 52px; }
   }
+  @media (min-width: 1800px) {
+    .grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    article:nth-child(3n) { border-right: 1px solid var(--ink); }
+    article:nth-child(4n) { border-right: 0; }
+  }
   @media (min-width: 901px) and (max-width: 1200px) {
     .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     article:nth-child(3n) { border-right: 1px solid var(--ink); }

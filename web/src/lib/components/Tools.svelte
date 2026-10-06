@@ -22,7 +22,7 @@
 </section>
 
 <style>
-  .sec { display: grid; grid-template-columns: 280px minmax(0, 1fr); border-bottom: 1px solid var(--ink); scroll-margin-top: 53px; }
+  .sec { display: grid; grid-template-columns: clamp(280px, 20%, 420px) minmax(0, 1fr); border-bottom: 1px solid var(--ink); scroll-margin-top: 53px; }
   .head { padding: 40px 32px; border-right: 1px solid var(--ink); display: flex; flex-direction: column; gap: 12px; }
   .h2 { font-size: 32px; }
   .grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); }

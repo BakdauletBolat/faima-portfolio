@@ -24,10 +24,10 @@
 </section>
 
 <style>
-  .hero { display: grid; grid-template-columns: minmax(0, 1fr) 560px; border-bottom: 1px solid var(--ink); }
+  .hero { display: grid; grid-template-columns: minmax(0, 1fr) clamp(560px, 38%, 920px); border-bottom: 1px solid var(--ink); }
   .text { padding: 64px 48px; display: flex; flex-direction: column; justify-content: space-between; gap: 48px; border-right: 1px solid var(--ink); }
-  h1 { margin: 0; font-family: var(--sans); font-size: 88px; line-height: 0.95; font-weight: 700; letter-spacing: -0.045em; overflow-wrap: anywhere; }
-  p { margin: 0; font-size: 18px; line-height: 1.6; max-width: 560px; }
+  h1 { margin: 0; font-family: var(--sans); font-size: clamp(88px, 6.2vw, 150px); line-height: 0.95; font-weight: 700; letter-spacing: -0.045em; overflow-wrap: anywhere; }
+  p { margin: 0; font-size: 18px; line-height: 1.6; max-width: 640px; }
   .badge { align-self: flex-start; border: 1px dashed var(--ink); padding: 10px 14px; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; }
   .photo { aspect-ratio: 1; border-bottom: 1px solid var(--ink); background: var(--hover); }
   .photo img { width: 100%; height: 100%; object-fit: cover; }
@@ -36,6 +36,11 @@
   .stats > div:last-child { border-right: 0; }
   .l { opacity: 0.8; }
   .v { font-size: 22px; font-weight: 700; margin-top: 4px; }
+
+  @media (min-width: 1800px) {
+    .text { padding: 80px 72px; }
+    p { font-size: 20px; }
+  }
 
   @media (max-width: 900px) {
     .hero { display: flex; flex-direction: column; }
