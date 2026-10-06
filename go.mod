@@ -1,0 +1,3 @@
+module faima-portfolio
+
+go 1.26.5

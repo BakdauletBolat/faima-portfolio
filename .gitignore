@@ -1,0 +1,6 @@
+node_modules
+data/uploads
+server/web/dist/*
+!server/web/dist/.gitkeep
+portfolio
+.env
