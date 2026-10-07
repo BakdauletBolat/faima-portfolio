@@ -223,7 +223,7 @@
   .row3 { display: grid; grid-template-columns: 1fr 80px 40px; gap: 10px; }
   .work { display: flex; gap: 8px; align-items: center; border: 1px solid var(--ink); padding: 8px; flex-wrap: wrap; }
   .grow { flex: 1; min-width: 160px; }
-  .thumb { width: 72px; height: 72px; object-fit: cover; border: 1px solid var(--ink); background: var(--hover); }
+  .thumb { width: 72px; height: 72px; object-fit: contain; border: 1px solid var(--ink); background: var(--hover); }
   .actions { display: flex; gap: 8px; }
   footer { position: fixed; left: 0; right: 0; bottom: 0; padding: 12px 16px; background: var(--paper); border-top: 1px solid var(--ink); display: flex; justify-content: center; }
   .login { max-width: 320px; margin: 15vh auto 0; display: flex; flex-direction: column; gap: 14px; }
