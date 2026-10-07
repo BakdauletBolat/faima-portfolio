@@ -48,8 +48,8 @@
   .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); }
   article { border-right: 1px solid var(--ink); border-bottom: 1px solid var(--ink); display: flex; flex-direction: column; }
   article:nth-child(3n) { border-right: 0; }
-  .cover { aspect-ratio: 1; border-bottom: 1px solid var(--ink); background: var(--hover); }
-  .cover img { width: 100%; height: 100%; object-fit: contain; }
+  .cover { border-bottom: 1px solid var(--ink); background: var(--hover); }
+  .cover img { display: block; width: 100%; height: auto; object-fit: contain; }
   .body { padding: 20px 24px; display: flex; flex-direction: column; gap: 10px; flex: 1; }
   .meta { display: flex; justify-content: space-between; gap: 12px; font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; }
   h3 { margin: 0; font-family: var(--sans); font-size: 24px; font-weight: 700; letter-spacing: -0.02em; }
