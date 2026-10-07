@@ -53,7 +53,7 @@
   .body { padding: 20px 24px; display: flex; flex-direction: column; gap: 10px; flex: 1; }
   .meta { display: flex; justify-content: space-between; gap: 12px; font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; }
   h3 { margin: 0; font-family: var(--sans); font-size: 24px; font-weight: 700; letter-spacing: -0.02em; }
-  p { margin: 0; font-size: 14px; line-height: 1.55; flex: 1; }
+  p { margin: 0; font-size: 14px; line-height: 1.55; flex: 1; white-space: pre-wrap; }
   .dl {
     display: flex; justify-content: space-between; padding: 14px 24px; border-top: 1px solid var(--ink); color: var(--ink);
     font-size: 13px; text-transform: uppercase; letter-spacing: 0.06em; font-weight: 700;

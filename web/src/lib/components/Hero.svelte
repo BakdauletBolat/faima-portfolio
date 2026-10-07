@@ -27,7 +27,7 @@
   .hero { display: grid; grid-template-columns: minmax(0, 1fr) clamp(560px, 38%, 920px); border-bottom: 1px solid var(--ink); }
   .text { padding: 64px 48px; display: flex; flex-direction: column; justify-content: space-between; gap: 48px; border-right: 1px solid var(--ink); }
   h1 { margin: 0; font-family: var(--sans); font-size: clamp(88px, 6.2vw, 150px); line-height: 0.95; font-weight: 700; letter-spacing: -0.045em; overflow-wrap: anywhere; }
-  p { margin: 0; font-size: 18px; line-height: 1.6; max-width: 640px; }
+  p { margin: 0; font-size: 18px; line-height: 1.6; max-width: 640px; white-space: pre-wrap; }
   .badge { align-self: flex-start; border: 1px dashed var(--ink); padding: 10px 14px; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; }
   .photo { aspect-ratio: 1; border-bottom: 1px solid var(--ink); background: var(--hover); }
   .photo img { width: 100%; height: 100%; object-fit: cover; }

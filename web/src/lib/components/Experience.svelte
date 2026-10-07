@@ -26,7 +26,7 @@
   .who { display: flex; flex-direction: column; gap: 6px; }
   .role { font-family: var(--sans); font-size: 22px; font-weight: 700; letter-spacing: -0.02em; }
   .company { font-size: 14px; }
-  .desc { font-size: 15px; line-height: 1.6; }
+  .desc { font-size: 15px; line-height: 1.6; white-space: pre-wrap; }
 
   @media (max-width: 900px) {
     .sec { display: block; }
