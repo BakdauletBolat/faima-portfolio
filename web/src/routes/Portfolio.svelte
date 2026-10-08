@@ -14,6 +14,7 @@
   api.content().then((c) => {
     content = c;
     document.title = `${c.profile.name} — Портфолио`;
+    document.querySelector('meta[name="description"]')?.setAttribute('content', c.profile.tagline);
   }).catch(() => (failed = true));
 </script>
 
